@@ -1,0 +1,17 @@
+pagination{
+text-align: centre;
+}
+.pagination a{
+colour:green;
+padding: 16px 30px;
+display: inline-block;
+}
+.pagination a.active{
+    background-colour: blue;
+    front-weight: bold;
+    border-radius: 10p;
+}
+.pagination a:hover:not(.active){
+    background-colour:blue;
+    border-radius: 10px;
+}
